@@ -1,0 +1,33 @@
+[
+  {
+    "id": "Full-time",
+    "hoursPerWeek": 40,
+    "contractType": "Permanent",
+    "staffWeight": 30
+  },
+  {
+    "id": "Part-time",
+    "hoursPerWeek": 25,
+    "contractType": "Part-time",
+    "staffWeight": 30
+  },
+  {
+    "id": "Mini-job",
+    "hoursPerWeek": 10,
+    "contractType": "Mini-job",
+    "hourlyRate": 13.9,
+    "staffWeight": 15
+  },
+  {
+    "id": "Working Student",
+    "hoursPerWeek": 20,
+    "contractType": "Fixed-term",
+    "staffWeight": 15
+  },
+  {
+    "id": "Midi-job",
+    "hoursPerWeek": 30,
+    "contractType": "Midi-job",
+    "staffWeight": 10
+  }
+]

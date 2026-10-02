@@ -1,0 +1,124 @@
+[
+  {
+    "id": "innenstadt",
+    "name": "Innenstadt",
+    "city": "Frankfurt",
+    "x": 52,
+    "y": 50,
+    "neighbors": [
+      "westend",
+      "nordend",
+      "ostend",
+      "sachsenhausen",
+      "gallus"
+    ],
+    "reserveDrivers": 2,
+    "minutesPerOrder": 19,
+    "demandShare": 0.2
+  },
+  {
+    "id": "sachsenhausen",
+    "name": "Sachsenhausen",
+    "city": "Frankfurt",
+    "x": 55,
+    "y": 74,
+    "neighbors": [
+      "innenstadt",
+      "ostend",
+      "gallus"
+    ],
+    "reserveDrivers": 1,
+    "minutesPerOrder": 22,
+    "demandShare": 0.15
+  },
+  {
+    "id": "nordend",
+    "name": "Nordend",
+    "city": "Frankfurt",
+    "x": 56,
+    "y": 30,
+    "neighbors": [
+      "innenstadt",
+      "bornheim",
+      "westend"
+    ],
+    "reserveDrivers": 1,
+    "minutesPerOrder": 20,
+    "demandShare": 0.15
+  },
+  {
+    "id": "bornheim",
+    "name": "Bornheim",
+    "city": "Frankfurt",
+    "x": 76,
+    "y": 26,
+    "neighbors": [
+      "nordend",
+      "ostend"
+    ],
+    "reserveDrivers": 1,
+    "minutesPerOrder": 21,
+    "demandShare": 0.11
+  },
+  {
+    "id": "bockenheim",
+    "name": "Bockenheim",
+    "city": "Frankfurt",
+    "x": 20,
+    "y": 34,
+    "neighbors": [
+      "westend",
+      "gallus"
+    ],
+    "reserveDrivers": 1,
+    "minutesPerOrder": 21,
+    "demandShare": 0.11
+  },
+  {
+    "id": "westend",
+    "name": "Westend",
+    "city": "Frankfurt",
+    "x": 34,
+    "y": 36,
+    "neighbors": [
+      "innenstadt",
+      "nordend",
+      "bockenheim",
+      "gallus"
+    ],
+    "reserveDrivers": 1,
+    "minutesPerOrder": 20,
+    "demandShare": 0.1
+  },
+  {
+    "id": "ostend",
+    "name": "Ostend",
+    "city": "Frankfurt",
+    "x": 80,
+    "y": 52,
+    "neighbors": [
+      "innenstadt",
+      "bornheim",
+      "sachsenhausen"
+    ],
+    "reserveDrivers": 1,
+    "minutesPerOrder": 22,
+    "demandShare": 0.1
+  },
+  {
+    "id": "gallus",
+    "name": "Gallus",
+    "city": "Frankfurt",
+    "x": 24,
+    "y": 60,
+    "neighbors": [
+      "innenstadt",
+      "westend",
+      "bockenheim",
+      "sachsenhausen"
+    ],
+    "reserveDrivers": 1,
+    "minutesPerOrder": 23,
+    "demandShare": 0.08
+  }
+]

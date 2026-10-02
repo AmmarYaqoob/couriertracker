@@ -1,0 +1,282 @@
+[
+  {
+    "id": "inn-1",
+    "name": "Zeil Burger Kitchen",
+    "zoneId": "innenstadt",
+    "cuisine": "Burgers",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "inn-2",
+    "name": "Römer Ramen",
+    "zoneId": "innenstadt",
+    "cuisine": "Japanese",
+    "readinessDelayMean": 2,
+    "readinessDelaySd": 4
+  },
+  {
+    "id": "inn-3",
+    "name": "Hauptwache Döner",
+    "zoneId": "innenstadt",
+    "cuisine": "Turkish",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "inn-4",
+    "name": "Konstabler Poke",
+    "zoneId": "innenstadt",
+    "cuisine": "Poke",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "inn-5",
+    "name": "Paulsplatz Pizzeria",
+    "zoneId": "innenstadt",
+    "cuisine": "Pizza",
+    "readinessDelayMean": 3,
+    "readinessDelaySd": 5
+  },
+  {
+    "id": "inn-6",
+    "name": "Liebfrauen Thai",
+    "zoneId": "innenstadt",
+    "cuisine": "Thai",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "sac-1",
+    "name": "Apfelwein Grill",
+    "zoneId": "sachsenhausen",
+    "cuisine": "German",
+    "readinessDelayMean": 6,
+    "readinessDelaySd": 5
+  },
+  {
+    "id": "sac-2",
+    "name": "Schweizer Str. Sushi",
+    "zoneId": "sachsenhausen",
+    "cuisine": "Japanese",
+    "readinessDelayMean": 2,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "sac-3",
+    "name": "Brückenstraße Bowls",
+    "zoneId": "sachsenhausen",
+    "cuisine": "Healthy",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "sac-4",
+    "name": "Museumsufer Tacos",
+    "zoneId": "sachsenhausen",
+    "cuisine": "Mexican",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "sac-5",
+    "name": "Textorstraße Curry",
+    "zoneId": "sachsenhausen",
+    "cuisine": "Indian",
+    "readinessDelayMean": 4,
+    "readinessDelaySd": 4
+  },
+  {
+    "id": "nor-1",
+    "name": "Berger Pasta Bar",
+    "zoneId": "nordend",
+    "cuisine": "Italian",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "nor-2",
+    "name": "Oeder Weg Falafel",
+    "zoneId": "nordend",
+    "cuisine": "Middle Eastern",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "nor-3",
+    "name": "Glauburg Pho",
+    "zoneId": "nordend",
+    "cuisine": "Vietnamese",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "nor-4",
+    "name": "Nordend Smash",
+    "zoneId": "nordend",
+    "cuisine": "Burgers",
+    "readinessDelayMean": 2,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "nor-5",
+    "name": "Friedberger Pizza",
+    "zoneId": "nordend",
+    "cuisine": "Pizza",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "bor-1",
+    "name": "Uhrtürmchen Kebab",
+    "zoneId": "bornheim",
+    "cuisine": "Turkish",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "bor-2",
+    "name": "Bornheim Biryani",
+    "zoneId": "bornheim",
+    "cuisine": "Indian",
+    "readinessDelayMean": 3,
+    "readinessDelaySd": 4
+  },
+  {
+    "id": "bor-3",
+    "name": "Mitte Wok",
+    "zoneId": "bornheim",
+    "cuisine": "Chinese",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "bor-4",
+    "name": "Saalburg Salads",
+    "zoneId": "bornheim",
+    "cuisine": "Healthy",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 1
+  },
+  {
+    "id": "boc-1",
+    "name": "Campus Noodles",
+    "zoneId": "bockenheim",
+    "cuisine": "Asian",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "boc-2",
+    "name": "Leipziger Str. Pizza",
+    "zoneId": "bockenheim",
+    "cuisine": "Pizza",
+    "readinessDelayMean": 2,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "boc-3",
+    "name": "Kurfürsten Grill",
+    "zoneId": "bockenheim",
+    "cuisine": "Grill",
+    "readinessDelayMean": 5,
+    "readinessDelaySd": 5
+  },
+  {
+    "id": "boc-4",
+    "name": "Bockenheim Bagels",
+    "zoneId": "bockenheim",
+    "cuisine": "Breakfast",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 1
+  },
+  {
+    "id": "wes-1",
+    "name": "Grüneburg Sushi",
+    "zoneId": "westend",
+    "cuisine": "Japanese",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "wes-2",
+    "name": "Palmengarten Bistro",
+    "zoneId": "westend",
+    "cuisine": "French",
+    "readinessDelayMean": 2,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "wes-3",
+    "name": "Westend Burrito",
+    "zoneId": "westend",
+    "cuisine": "Mexican",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "wes-4",
+    "name": "Opernplatz Deli",
+    "zoneId": "westend",
+    "cuisine": "Deli",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 1
+  },
+  {
+    "id": "ost-1",
+    "name": "Hanauer Landstraße BBQ",
+    "zoneId": "ostend",
+    "cuisine": "Barbecue",
+    "readinessDelayMean": 4,
+    "readinessDelaySd": 5
+  },
+  {
+    "id": "ost-2",
+    "name": "Osthafen Pizza",
+    "zoneId": "ostend",
+    "cuisine": "Pizza",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "ost-3",
+    "name": "Ostpark Poke",
+    "zoneId": "ostend",
+    "cuisine": "Poke",
+    "readinessDelayMean": 0,
+    "readinessDelaySd": 1
+  },
+  {
+    "id": "ost-4",
+    "name": "Danziger Platz Dumplings",
+    "zoneId": "ostend",
+    "cuisine": "Chinese",
+    "readinessDelayMean": 2,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "gal-1",
+    "name": "Kleyerstraße Kebab",
+    "zoneId": "gallus",
+    "cuisine": "Turkish",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 2
+  },
+  {
+    "id": "gal-2",
+    "name": "Galluspark Curry",
+    "zoneId": "gallus",
+    "cuisine": "Indian",
+    "readinessDelayMean": 2,
+    "readinessDelaySd": 3
+  },
+  {
+    "id": "gal-3",
+    "name": "Messe Burger",
+    "zoneId": "gallus",
+    "cuisine": "Burgers",
+    "readinessDelayMean": 1,
+    "readinessDelaySd": 2
+  }
+]

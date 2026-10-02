@@ -1,0 +1,75 @@
+[
+  {
+    "id": "uber_eats",
+    "name": "Uber Eats",
+    "color": "#2a78d6",
+    "revenuePerDelivery": 9.2,
+    "orderWeight": 40,
+    "ptod": {
+      "label": "Uber Eats (arrival-based, to be agreed)",
+      "measuredEvent": "pickup_and_dropoff_arrivals",
+      "deadlineBasis": "updated",
+      "toleranceMin": 2,
+      "excludeRestaurantWait": true,
+      "excludeCustomerWait": true,
+      "cancellations": "exclude",
+      "window": {
+        "kind": "rolling",
+        "size": 200
+      },
+      "batchRule": "per_stop",
+      "target": 80,
+      "verified": false,
+      "source": "Modelled on Uber's public courier on-time rate (last 200 pickup and drop-off arrivals, waiting excluded). Not an EELS fleet term.",
+      "notes": "Each leg is compared with its planned time plus a modelled 2-minute estimate buffer. Confirm the German fleet-partner definition, target and data access in the agreement."
+    }
+  },
+  {
+    "id": "wolt",
+    "name": "Wolt",
+    "color": "#eb6834",
+    "revenuePerDelivery": 8.9,
+    "orderWeight": 35,
+    "ptod": {
+      "label": "Wolt (placeholder)",
+      "measuredEvent": "handover",
+      "deadlineBasis": "updated",
+      "toleranceMin": 5,
+      "excludeRestaurantWait": true,
+      "excludeCustomerWait": false,
+      "cancellations": "exclude",
+      "window": {
+        "kind": "daily"
+      },
+      "batchRule": "per_order",
+      "target": 95,
+      "verified": false,
+      "source": "Placeholder. No German Wolt fleet PTOD formula was verified.",
+      "notes": "Agree measured event, deadline basis, tolerance and window with Wolt."
+    }
+  },
+  {
+    "id": "lieferando",
+    "name": "Lieferando",
+    "color": "#1baf7a",
+    "revenuePerDelivery": 8.6,
+    "orderWeight": 25,
+    "ptod": {
+      "label": "Lieferando (placeholder)",
+      "measuredEvent": "handover",
+      "deadlineBasis": "original",
+      "toleranceMin": 0,
+      "excludeRestaurantWait": false,
+      "excludeCustomerWait": false,
+      "cancellations": "driver_late",
+      "window": {
+        "kind": "daily"
+      },
+      "batchRule": "per_order",
+      "target": 95,
+      "verified": false,
+      "source": "Placeholder. No German Lieferando fleet PTOD formula was verified.",
+      "notes": "Agree the definition and whether driver-caused cancellations count as late."
+    }
+  }
+]

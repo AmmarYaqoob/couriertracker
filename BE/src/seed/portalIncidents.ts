@@ -1,0 +1,58 @@
+import type { CreateIncidentData } from "../domain/incident";
+
+export function buildPortalIncidents(): CreateIncidentData[] {
+  return [
+    {
+      id: "INC-FRA-0226",
+      type: "Customer not available",
+      severity: "Low",
+      riderId: null,
+      riderName: "Yusuf Sharma",
+      orderId: "FRA-0226",
+      zoneId: "nordend",
+      description: "Customer did not answer; platform procedure followed.",
+      reportedMin: 17 * 60 + 18,
+      status: "resolved",
+      source: "Order feed",
+    },
+    {
+      id: "INC-FRA-0190",
+      type: "Customer not available",
+      severity: "Low",
+      riderId: null,
+      riderName: "Felix Kowalski",
+      orderId: "FRA-0190",
+      zoneId: "bockenheim",
+      description: "Customer did not answer; platform procedure followed.",
+      reportedMin: 15 * 60 + 45,
+      status: "resolved",
+      source: "Order feed",
+    },
+    {
+      id: "INC-FRA-0044",
+      type: "Customer not available",
+      severity: "Low",
+      riderId: null,
+      riderName: "Emre Vogel",
+      orderId: "FRA-0044",
+      zoneId: "ostend",
+      description: "Customer did not answer; platform procedure followed.",
+      reportedMin: 12 * 60 + 53,
+      status: "resolved",
+      source: "Order feed",
+    },
+    {
+      id: "INC-FRA-0036",
+      type: "Customer not available",
+      severity: "Low",
+      riderId: null,
+      riderName: "Chiara Fischer",
+      orderId: "FRA-0036",
+      zoneId: "nordend",
+      description: "Customer did not answer; platform procedure followed.",
+      reportedMin: 12 * 60 + 39,
+      status: "resolved",
+      source: "Order feed",
+    },
+  ];
+}
